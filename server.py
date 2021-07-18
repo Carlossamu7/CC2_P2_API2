@@ -5,8 +5,8 @@ import time
 import requests
 from datetime import datetime
 from zipfile import ZipFile
+from config import api_key
 
-api_key = "b5b78b88bc8fb7b55aa93b9cbef9c604"
 lat = "37.7272"
 lon = "-123.032"
 url = "https://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&appid=%s&units=metric" % (lat, lon, api_key)
